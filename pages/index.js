@@ -17,7 +17,7 @@ export default function Home() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://imabhy.pythonanywhere.com", {
+      const response = await axios.get("//imabhy.pythonanywhere.com", {
         headers: {
           "Access-Control-Allow-Origin": "*", // Replace '*' with your actual frontend domain if possible
         },
